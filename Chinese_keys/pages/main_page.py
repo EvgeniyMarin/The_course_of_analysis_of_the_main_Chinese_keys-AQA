@@ -11,7 +11,7 @@ class MainPage(Base_Page):
     def go_to_the_login_form(self):  # метод для перехода к форме логина
         button = self.browser.find_element(*MainPageLocators.LOGIN_BUTTON)
         button.click()
-        print("Передох на форму логина")
+        print("Переход на форму логина")
 
     def availability_of_a_login_form(self):  # метод для проверки наличия формы логина
         assert self.browser.find_element(*LoginFormLocators.FORM_LOGIN), "Форма логина ОТСУТСТВУЕТ"
