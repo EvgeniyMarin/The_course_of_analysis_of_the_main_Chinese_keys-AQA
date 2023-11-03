@@ -41,3 +41,7 @@ class MainPage(Base_Page):
         button_log_in = self.browser.find_element(*LoginFormLocators.SUBMIT_BUTTON)
         button_log_in.click()
 
+    def successful_authorization(self):
+        assert self.browser.find_element(*LoginFormLocators.LOGIN_AVATAR), "Авторизация НЕ успешна"
+        print("Авторизация выполнена УСПЕШНО!")
+

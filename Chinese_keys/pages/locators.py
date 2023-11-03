@@ -10,5 +10,6 @@ class LoginFormLocators:
     LOGIN_INPUT = (By.CSS_SELECTOR, '[name="login"]')  # поле ввода логина
     PASSWORD_INPUT = (By.CSS_SELECTOR, '[name="password"]')   # поле ввода пароля
     SUBMIT_BUTTON = (By.CSS_SELECTOR, '[type="submit"]')      # кнопка "войти"
+    LOGIN_AVATAR = (By.CSS_SELECTOR, 'button.navbar__profile-toggler')    # аватар для перехода в профиль (появляется при успешной регистрации)
 
 

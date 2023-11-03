@@ -53,6 +53,8 @@ def test_authorization_on_the_site(browser):
     page.login_input(login)
     page.password_input(password)
     page.log_in()
+    page.successful_authorization()
     time.sleep(5)
 
-"""Написать этот тест без использования PAGE OBJECT"""
+
+"""Написать этот тест без использования PAGE OBJECT""" # написан
