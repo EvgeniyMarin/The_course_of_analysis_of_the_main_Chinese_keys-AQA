@@ -13,3 +13,6 @@ class LoginFormLocators:
     LOGIN_AVATAR = (By.CSS_SELECTOR, 'button.navbar__profile-toggler')    # аватар для перехода в профиль (появляется при успешной регистрации)
 
 
+class SearchPageLocators:
+    SEARCH_INPUT_FIEND = (By.CSS_SELECTOR, ".search-form__input")    # поле ввода для поиска
+    SEARCH_BUTTON = (By.CSS_SELECTOR, ".search-form__submit")      # кнопка поиска

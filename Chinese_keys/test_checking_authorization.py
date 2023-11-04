@@ -1,7 +1,7 @@
 from pages.main_page import MainPage
 import time
 
-
+"""Smoke tests"""
 def test_the_presence_of_a_login_button(browser):
     """Тест наличия входа в систему"""
     url = "https://stepik.org/catalog"
